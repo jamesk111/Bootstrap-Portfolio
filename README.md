@@ -1,2 +1,2 @@
 # Bootstrap-Portfolio
-Person portfolio built with Bootstrap.
+Personal portfolio built with Bootstrap.
