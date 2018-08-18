@@ -7,6 +7,20 @@ html {
     margin-bottom: 56px;
 }
 
+.section-wrapper {
+    margin-bottom: 10rem;
+}
+
+.profile-image {
+    height: 200px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.bio {
+    width: 75%;
+}
+
 footer {
     position: absolute;
     height: 56px;

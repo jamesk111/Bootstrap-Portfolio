@@ -12,7 +12,7 @@
 <body>
 
     <!-- Navigation Menu -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
         <div class="container">
             <!-- Define brand and the toggle button. -->
             <a class="navbar-brand" href="./index.html">James Kline</a>
@@ -24,13 +24,13 @@
             <div class="collapse navbar-collapse" id="navWrapper">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -38,13 +38,36 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container content-wrapper">
-        <div class="row">
-            <div class="col">
-                <img src="http://via.placeholder.com/200x200" alt="Profile Image">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque provident cum sequi consequatur cumque, nulla minus? Eum ut molestias asperiores est quibusdam quae quos enim, aliquam sit maxime explicabo neque!</p>
-            </div>
+    <div class="container d-flex flex-column content-wrapper">
+
+        <!-- About Me -->
+        <header class="w-100 mt-3 d-block">
+            <h2 id="about">About Me</h2>
+            <hr>
+        </header>
+        <div class="d-flex flex-wrap flex-md-nowrap justify-content-center justify-content-md-start section-wrapper">
+            <img class="rounded-circle p-1 border profile-image" src="assets/images/headshot.jpg" alt="Profile Image">
+            <p class="bio">
+                Hello, my name is James Kline. I’m an established software developer who is passionate about developing on
+                all levels of the development process. I strive to produce top quality results and am eager to learn
+                new languages, design strategies, and development practices.
+                <br><br>
+                When I'm not developing, you can find me playing video games, spending time with my dogs (Leila and Mizu), and 
+                wandering around town looking for the next great restaurant to try.
+                <br><br>
+                Please feel free to contact me if you have any questions.
+            </p>
         </div>
+
+        <!-- Portfolio -->
+        <header class="w-100 mt-3 d-block">
+            <h2 id="portfolio">Portfolio</h2>
+            <hr>
+        </header>
+        <div class="d-flex flex-wrap flex-md-nowrap justify-content-center justify-content-md-start">
+            <br>
+        </div>
+
     </div>
 
     <!-- Footer -->
