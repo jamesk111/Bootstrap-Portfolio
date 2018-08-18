@@ -3,6 +3,20 @@ html {
     min-height: 100%;
 }
 
+i {
+    display: block;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #343a40;
+}
+
 .content-wrapper {
     margin-bottom: 56px;
 }
@@ -19,6 +33,19 @@ html {
 
 .bio {
     width: 75%;
+}
+
+.card {
+    width: 250px;
+    margin: 0 20px 20px 20px;
+}
+
+.contact a {
+    transition: font-size 0.5s ease;
+}
+
+.contact a:hover {
+    font-size: 1.5rem;
 }
 
 footer {
