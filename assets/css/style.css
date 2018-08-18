@@ -18,7 +18,7 @@ a:hover {
 }
 
 .content-wrapper {
-    margin-bottom: 56px;
+    margin-bottom: 115px;
 }
 
 .section-wrapper {
@@ -50,7 +50,15 @@ a:hover {
 
 footer {
     position: absolute;
-    height: 56px;
+    height: 115px;
     bottom: 0;
     width: 100%;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: lightgray;
 }
