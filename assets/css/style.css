@@ -61,4 +61,5 @@ footer a {
 
 footer a:hover {
     color: lightgray;
+    text-decoration: none;
 }
